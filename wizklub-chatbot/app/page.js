@@ -301,7 +301,7 @@ export default function App() {
     (async () => {
       await botSay("👋 Hey there! Welcome to WizKlub — where young minds discover their superpowers through STEM! 🚀", 500);
       await sleep(200);
-      await botSay("I'm Wiz, your personal guide. Tell me a bit about yourself so I can find the perfect program for you.", 1100);
+      await botSay("I'm Prakhar, your personal guide. Tell me a bit about yourself so I can find the perfect program for you.", 1100);
       await sleep(200);
       setStage("type_select");
     })();
@@ -399,7 +399,7 @@ export default function App() {
         <div style={{ fontFamily:"'Fredoka One',cursive", fontSize:32, color:C.white, letterSpacing:"0.02em", lineHeight:1 }}>
           Wiz<span style={{ color:C.coral }}>Klub</span>
         </div>
-        <div style={{ color:C.muted, fontSize:12, marginTop:2, fontFamily:"'DM Sans',sans-serif" }}>STEM · Chatbot Demo by Prakhar Jain</div>
+        <div style={{ color:C.muted, fontSize:12, marginTop:2, fontFamily:"'DM Sans',sans-serif" }}>STEM · Chatbot by Prakhar Jain</div>
       </div>
 
       {/* Chat window */}
