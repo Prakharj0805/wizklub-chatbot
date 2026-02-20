@@ -282,7 +282,7 @@ export default function WizKlubChatbot() {
         <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 28, fontWeight: 800, color: "#fff", letterSpacing: -1 }}>
           Wiz<span style={{ color: BRAND.primary }}>Klub</span>
         </div>
-        <div style={{ color: "#ffffff88", fontSize: 13 }}>Prakhar Jain Wizclub Chatbot</div>
+        <div style={{ color: "#ffffff88", fontSize: 16 }}>Prakhar Jain Wizclub Chatbot</div>
       </div>
 
       {/* Chat window */}
